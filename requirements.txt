@@ -1,0 +1,6 @@
+# Required
+cryptography>=42.0.0
+
+# Optional: lets the command-line version copy passwords to the clipboard
+# (the GUI uses Tkinter's own clipboard and does not need it)
+pyperclip>=1.8.2

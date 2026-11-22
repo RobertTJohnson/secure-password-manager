@@ -1,0 +1,24 @@
+# NEVER commit real vaults, logs or exports - they belong to the person running the tool
+vault.json
+*_vault.json
+*vault*.json
+audit_log.csv
+vault_export*
+*.csv.enc
+
+# Temporary files created by atomic writes
+.tmp_*
+*.part
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
